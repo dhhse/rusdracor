@@ -1,67 +1,42 @@
-# RusDraCor
-## Corpus Description
-We are building a Russian Drama Corpus with files encoded in
-[TEI-P5](http://www.tei-c.org/Guidelines/P5/). Our corpus comprises
-**190 plays** to date, originating from [ilibrary](https://ilibrary.ru/),
-[Wikisource](https://ru.wikisource.org/), [РВБ](https://rvb.ru/),
-[lib.ru](http://lib.ru/), [ФЕБ](http://feb-web.ru/),
-[СовЛит](http://www.ruthenia.ru/sovlit/) and
-[Wikilivres](https://wikilivres.org/), converted to TEI and corrected
-and enhanced by us. There will be more.
+# rusdracor_relations
+This is a repository for RusDraCor project
+## Proposed project title: Fathers, Mothers and Children
 
-If you want to cite the corpus, please use this publication:
+Let’s think about relatives in drama. What can we say about characters and their speeches, if we focus on their family status? There are fathers and mothers, sons and daughters, husbands and wives in dramas. There are even friends and lovers, who often do interrupt in a family world and influence on development of the plot. What if we extract not only the gender information (see Gender specifics in character speech in [Building a Corpus for the Quantitative Research of Russian Drama: Composition, Structure, Case Studies] (http://www.dialog-21.ru/media/4332/skorinkind.pdf) but also annotate characters with relation labels? This markup will help us easily find all speeches related to particular family members, so we could make the statistical comparison of, for example, parents and children speeches in the corpus.
+Here's the overview of types of relations (from our partners in Stuttgart): <https://github.com/quadrama/Corpus#relations>
 
-- **Skorinkin D., Fischer F., Palchikov G. (2018)**: Building a Corpus for the Quantitative Research of Russian Drama: Composition, Structure, Case Studies. *Proceedings of the International Conference "Dialogue 2018"*, pp. 662–682. (**[PDF](http://www.dialog-21.ru/media/4332/skorinkind.pdf)**)
 
-RusDraCor was first presented on June 29, 2017, at the [Corpora 2017
-conference](https://events.spbu.ru/events/anons/corpora-2017/?lang=Eng) in St.
-Petersburg ([our slides here](https://dlina.github.io/presentations/2017-spb/)),
-on July 11, 2017, at the ["Digitizing the stage"
-conference](https://digitizingthestage.wordpress.com/) in Oxford and
-on November 14, 2017, at the
-[TEI 2017 conference](https://hcmc.uvic.ca/tei2017/abstracts/t_115_fischeretal_lifeonstage.html)
-in Victoria. The social network data we extract from plays may also be explored
-on our website [dracor.org/rus](https://dracor.org/rus) or via
-[our Shinyapp](https://shiny.dracor.org/).
+## MVP
 
-If you just want to download the corpus in its current state in XML-TEI,
-do this:
+RusDraCor consists of about 200 dramas. We plan to annotate characters from the <listPerson> in XML with a relative label according to the description in <https://github.com/quadrama/Corpus#relations>. 
 
-`svn export https://github.com/dracor-org/rusdracor/trunk/tei`
 
-## API
+## EP
 
-An easy way to download the network data (instead of the actual TEI files) is
-to use our API ([documentation here](https://dracor.org/documentation/api/)).
-If you have [jq](http://blog.librato.com/posts/jq-json) installed, it would work
-like this:
+That is Analysis. The usage of the relative labels allows us to make a quantitative research of the data using Stylo package for R. An article with the results published in a DH-related journal is supposed to be a physical product of the project.
 
-```
-for play in `curl 'https://dracor.org/api/corpora/rus' | jq -r ".dramas[] .name"`; do
-    wget -O "$play".csv https://dracor.org/api/corpora/rus/play/"$play"/networkdata/csv
-done
-```
+What can we count using relation makups?
 
-The API info page is at `https://dracor.org/api/info`.
+- The length of parents' speeches vs child's speeches. Which group does speak more?
 
-## Simple Visualisation with R
+- Exclamation marks (?!) and interjections (Ах! Ох! Ба! Хм, Гм etc). Who's speech is more emotional?
 
-To have a first look at the distribution of the number of speakers per play over
-time, you could feed the metadata table into R:
+- Words for parents' speech vs words for child's speech. What words are more prefered by parents and by children?
 
-```
-library(data.table)
-library(ggplot2)
-rusdracor <- fread("https://dracor.org/api/corpora/rus/metadata.csv")
-ggplot(rusdracor[], aes(x = yearNormalized, y = numOfSpeakers)) + geom_point()
-```
+- Words for a female parent vs words for male parent. Are they different?
 
-Result:
+- How do parents address to children vs how do children address to parents (comparing with IDs, the usage of 'вы' and 'ты').
 
-![number of speakers per play over time](numOfSpeakers.png)
+- Scenes with a parent and a child. How many scenes in drama where a parent speaks with a child?
 
-Here is a barplot showing the number of plays per decade:
+- Agreements and disagreements. (Amount of 'да' и 'нет').
 
-![number of speakers per play over time](playsPerDecade.png)
+## HAP
+It seems to be cool to make a usable open API, so anyone could make their own research based on the family relation’s metadata. This could be the beginning of some new wonderful projects like Shiny Dracor https://shiny.dracor.org/.
 
-(README last updated on September 1, 2019.)
+## Release
+Every Friday at 5 p.m. Alexander and Anna are meeting to make a release of the previous tasks. If it was a busy week, we make an agreement on a delay and play table tennis. Anyway, we discuss our next step for the next week and play table tennis 😊.
+
+## Calendar
+via Google Calendar
+https://calendar.google.com/calendar/ical/c6p95gcjj29cn4t67earemv8hk%40group.calendar.google.com/private-fc0615aee7c428b7dd3e623a0e72cea5/basic.ics
