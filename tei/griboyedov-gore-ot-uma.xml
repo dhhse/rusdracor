@@ -169,6 +169,13 @@
             <persName>Лакей</persName>
             <persName xml:lang="de">Lakai (IV/4)</persName>
           </person>
+          <listRelation type="personal">
+            <relation name="parent_of" active="#sofija" passive="#famusov"/>
+            <relation name="related_with" active="#hlestova" passive="#famusov"/>
+            <relation name="associated_with" active="#molchalin" passive="#famusov"/>
+            <relation name="spouses" mutual="#knjaz #knjaginja"/>
+            <relation name="spouses" mutual="#platon_mihajlovich #natalja_dmitrievna"/>
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
