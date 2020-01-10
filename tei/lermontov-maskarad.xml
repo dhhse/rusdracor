@@ -235,6 +235,9 @@
             <persName>Доктор</persName>
             <persName xml:lang="de">Arzt</persName>
           </person>
+          <listRelation type="personal">
+            <relation name="spouses" mutual="#Nina #Arbenin"/>
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
