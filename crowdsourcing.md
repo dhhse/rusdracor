@@ -2,7 +2,7 @@
 
 ## Step 1
 
-Chose a drama [here] ()
+Chose a drama [here] (https://github.com/alexdyul/XML_DH?fbclid=IwAR3fR7SUWv7OlIKlyjvO7VUP0HLJlSS-CP7ZzM2OCZPJEWKmo6RJ5Fhc9Jk)
 
 ## Step 2
 
@@ -13,9 +13,9 @@ Look carefully at the cast list. Find characters to code.
 
 Open the TEI-file on GitHub press the button "edit" and start coding!
 
-1. Write type="personal" inside the tag <listRelation>
+1. Write type="personal" inside the tag \<listRelation>
 
-2. Add tags <relation name = ....>
+2. Add tags \<relation name = ....>
 
 3. Press "Propose file change"
 
