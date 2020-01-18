@@ -23,26 +23,19 @@ Open the TEI-file on GitHub press the button "edit" and start coding!
 
 ## Example
 
-\<listRelation type="personal">
-
+```
+<listRelation type="personal">
             <relation name="parent_of" active="#famusov" passive="#sofija"/>
-            
             <relation name="related_with" active="#hlestova" passive="#famusov"/>
-            
             <relation name="associated_with" active="#molchalin" passive="#famusov"/>
-            
             <relation name="spouses" mutual="#platon_mihajlovich #natalja_dmitrievna"/>
-            
             <relation type="personal" name="spouses" mutual="#bärbel #adam"/>
-            
             <relation name="spouses" mutual="#knjaz #knjaginja"/>
-            
             <relation name="siblings" mutual="#pervaja_knjazhna #vtoraja_knjazhna #tretja_knjazhna #chetviortaja_knjazhna #pjataja_knjazhna #shestaja_knjazhna"/>
-            
-            ? <relation name="parent_of" active="#knjaz" passive="#pervaja_knjazhna #vtoraja_knjazhna #tretja_knjazhna #chetviortaja_knjazhna #pjataja_knjazhna #shestaja_knjazhna">
-            
-            ? <relation name="parent_of" active="#knjaginja" passive="#pervaja_knjazhna #vtoraja_knjazhna #tretja_knjazhna #chetviortaja_knjazhna #pjataja_knjazhna #shestaja_knjazhna">
+            <relation name="parent_of" active="#knjaz" passive="#pervaja_knjazhna #vtoraja_knjazhna #tretja_knjazhna #chetviortaja_knjazhna #pjataja_knjazhna #shestaja_knjazhna">
+            <relation name="parent_of" active="#knjaginja" passive="#pervaja_knjazhna #vtoraja_knjazhna #tretja_knjazhna #chetviortaja_knjazhna #pjataja_knjazhna #shestaja_knjazhna">
 \</listRelation>
+```
           
           Действующие:
 Павел Афанасьевич Фамусов, управляющий в казенном месте.
