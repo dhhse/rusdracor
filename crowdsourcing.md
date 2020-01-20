@@ -26,6 +26,7 @@ __Here's the overview of types of relations (from our partners in Stuttgart): ht
 ## Example
 
 ```
+
 <listRelation type="personal">
             <relation name="parent_of" active="#famusov" passive="#sofija"/>
             <relation name="related_with" active="#hlestova" passive="#famusov"/>
@@ -36,7 +37,8 @@ __Here's the overview of types of relations (from our partners in Stuttgart): ht
             <relation name="siblings" mutual="#pervaja_knjazhna #vtoraja_knjazhna #tretja_knjazhna #chetviortaja_knjazhna #pjataja_knjazhna #shestaja_knjazhna"/>
             <relation name="parent_of" active="#knjaz" passive="#pervaja_knjazhna #vtoraja_knjazhna #tretja_knjazhna #chetviortaja_knjazhna #pjataja_knjazhna #shestaja_knjazhna">
             <relation name="parent_of" active="#knjaginja" passive="#pervaja_knjazhna #vtoraja_knjazhna #tretja_knjazhna #chetviortaja_knjazhna #pjataja_knjazhna #shestaja_knjazhna">
-\</listRelation>
+</listRelation>
+</listPerson>
 ```
           
           Действующие:
