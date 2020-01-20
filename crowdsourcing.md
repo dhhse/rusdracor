@@ -21,6 +21,8 @@ Open the TEI-file on GitHub press the button "edit" and start coding!
 
 4. Press "Create pull request" and again "Create pull request" -> YOU ARE DONE!
 
+__Here's the overview of types of relations (from our partners in Stuttgart): https://github.com/quadrama/Corpus#relations__
+
 ## Example
 
 ```
