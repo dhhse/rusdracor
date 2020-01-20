@@ -2,7 +2,7 @@
 
 ## Step 1
 
-Chose a drama [here](https://github.com/alexdyul/XML_DH?fbclid=IwAR3fR7SUWv7OlIKlyjvO7VUP0HLJlSS-CP7ZzM2OCZPJEWKmo6RJ5Fhc9Jk)
+Choose a drama [here](https://github.com/alexdyul/XML_DH?fbclid=IwAR3fR7SUWv7OlIKlyjvO7VUP0HLJlSS-CP7ZzM2OCZPJEWKmo6RJ5Fhc9Jk)
 
 ## Step 2
 
