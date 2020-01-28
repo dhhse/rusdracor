@@ -62,6 +62,10 @@
             <persName xml:lang="en">Natalʹâ Stepanovna</persName>
             <persName xml:lang="de">Natalʹâ Stepanovna</persName>
           </person>
+          <listRelation type="personal">
+            <relation name="parent_of" active="#chubukov" passive="#natalja_stepanovna"/>
+            <relation name="associated_with" active="#lomov" passive="#chubukov"/>
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>

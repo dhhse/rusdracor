@@ -74,6 +74,9 @@
             <persName xml:lang="en">One of the deputation</persName>
             <persName xml:lang="de">Ein Mitglied der Bank</persName>
           </person>
+          <listRelation type="personal">
+            <relation name="spouses" mutual="#TatjanaAlekseevna #Shipuchin"/>
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
