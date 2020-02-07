@@ -115,6 +115,11 @@
             <persName xml:lang="en">Fedotik</persName>
             <persName xml:lang="de">Fedotik</persName>
           </person>
+          <listRelation type="personal">
+            <relation name="spouses" mutual="#Andrej #Natasha"/>
+            <relation name="siblings" mutual="#Olga #Masha #Irina #Andrej"/>
+            <relation name="spouses" mutual="#Masha #Kulygin"/>
+          </listRelation>
         </listPerson>
       </particDesc>
       <textClass>
