@@ -362,7 +362,7 @@
           </person>
           <person xml:id="mosalskij" sex="MALE">
             <persName>Мосальский</persName>
-            <persName xml:lang="de">Mosal’skij</persName>
+            <persName xml:lang="de">Mosal’skij</persName> 
           </person>
         </listPerson>
       </particDesc>
