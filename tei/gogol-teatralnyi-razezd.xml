@@ -445,7 +445,7 @@
           <person xml:id="OtstavshijChinovnik" sex="MALE">
             <persName>Отставший чиновник</persName>
             <persName xml:lang="de">Ein nachgebliebener Beamter</persName>
-          </person>
+          </person> 
         </listPerson>
       </particDesc>
       <textClass>
