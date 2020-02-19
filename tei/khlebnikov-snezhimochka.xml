@@ -311,7 +311,7 @@
           <personGrp xml:id="novye_golosa_udaljajuschihsja" sex="UNKNOWN">
             <name>Новые голоса удаляющихся</name>
             <name xml:lang="en">Second Chorus</name>
-          </personGrp>
+          </personGrp> 
         </listPerson>
       </particDesc>
       <textClass>
