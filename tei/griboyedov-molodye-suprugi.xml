@@ -15,7 +15,7 @@
         <publisher xml:id="dracor">DraCor</publisher>
         <idno type="dracor" xml:base="https://dracor.org/id/">rus000151</idno>
         <availability>
-          <licence>
+          <licence> 
             <ab>CC0 1.0</ab>
             <ref target="https://creativecommons.org/publicdomain/zero/1.0/">Licence</ref>
           </licence>
