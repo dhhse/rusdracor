@@ -80,7 +80,7 @@
           <listRelation type="personal">
             <relation name="parent_of" active="#kleshnin #kleshnina" passive="#lenushka"/>
             <relation name="lover_of" active="#lidin" passive="#lenushka"/>
-            <relation name="associated_with" active="#masha" passive="#kleshnina #kleshnin"/>
+            <relation name="associated_with" active="#masha" passive="#kleshnina #kleshnin #lenushka"/>
             <relation name="associated_with" active="#ivan" passive="#lidin"/>
             <relation name="spouses" mutual="#kleshnin #kleshnina"/>
             <relation name="friends" mutual="#lenskij #lidin"/>

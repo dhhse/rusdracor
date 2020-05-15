@@ -87,6 +87,7 @@
             <relation name="related_with" active="#dunechka" passive="#vassa #anna #pavel #semen #prohor"/>
             <relation name="spouses" mutual="#ljudmila #pavel"/>
             <relation name="spouses" mutual="#semen #natalja"/>
+            <relation name="siblings" mutual="#anna #pavel #semen"/>
           </listRelation>
         </listPerson>
       </particDesc>

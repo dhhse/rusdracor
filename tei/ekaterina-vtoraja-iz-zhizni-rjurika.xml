@@ -143,6 +143,7 @@
             <relation name="associated_with" active="#radbrat #gorlom" passive="#ljudbrat"/>
             <relation name="associated_with" active="#rohvold" passive="#rjurik"/>
             <relation name="siblings" mutual="#oleg #edvinda"/>
+            <relation name="siblings" mutual="#truvor #sineus #rjurik"/>
             <relation name="spouses" mutual="#edvinda #rjurik"/>
             <relation name="spouses" mutual="#umila #ljudbrat"/>
           </listRelation>

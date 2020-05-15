@@ -90,7 +90,7 @@
             <relation name="lover_of" active="#prijat" passive="#ulinka"/>
             <relation name="associated_with" active="#vysonos" passive="#vetromah"/>
             <relation name="associated_with" active="#prolaz" passive="#prijat"/>
-            <relation name="associated_with" active="#marina" passive="#lentjagin #lentjagina"/>
+            <relation name="associated_with" active="#marina" passive="#lentjagin #lentjagina #ulinka"/>
             <relation name="spouses" mutual="#lentjagin #lentjagina"/>
           </listRelation>
         </listPerson>
